@@ -13,10 +13,7 @@ def yorn(question):
 	else:
 		return yorn("Please enter y or n: ")
 
-#roll = input("Would you like to roll the die? Y or N: ").lower().strip()
 
-
-#if roll == 'y':
 while True:
 	if(yorn('Roll?')):
 		break
@@ -269,6 +266,5 @@ while True:
 			win.getMouse() # pause for mouse click in window
 			win.close()
 		main()
-#else:	
-#	exit()
+
 
