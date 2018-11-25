@@ -21,8 +21,7 @@ while True:
 	x = 350
 	y = 90
 	
-	#def die2():
-		#roledie2()
+	
 
 	if dienum == 1:
 		def main():
@@ -32,7 +31,6 @@ while True:
 			c = Circle(Point(100,100),20)
 			c.setFill("red")
 			c.draw(win)
-			#die2()
 			win.getMouse() # pause for mouse click in window
 			win.close()
 			
@@ -144,7 +142,7 @@ while True:
 			win.close()
 		main()
 
-	#def roledie2():
+	
 
 	dienum = random.randrange(1,7)
 	x = 450
