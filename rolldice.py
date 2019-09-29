@@ -18,10 +18,13 @@ while True:
 	if(yorn('Roll?')):
 		break
 	dienum = random.randrange(1,7)
-	x = 350
-	y = 90
-	
-	
+	x = 195
+	y = 60
+	xx = 400
+	yy = 140
+
+	#def die2():
+		#roledie2()
 
 	if dienum == 1:
 		def main():
@@ -31,9 +34,6 @@ while True:
 			c = Circle(Point(100,100),20)
 			c.setFill("red")
 			c.draw(win)
-			win.getMouse() # pause for mouse click in window
-			win.close()
-			
 		main()
 
 	if dienum == 2:
@@ -47,8 +47,6 @@ while True:
 			c2 = Circle(Point(150,150),20)
 			c2.setFill("red")
 			c2.draw(win)
-			win.getMouse() # pause for mouse click in window
-			win.close()
 		main()
 
 	if dienum == 3:
@@ -65,8 +63,6 @@ while True:
 			c3 = Circle(Point(150,150),20)
 			c3.setFill("red")
 			c3.draw(win)
-			win.getMouse() # pause for mouse click in window
-			win.close()
 		main()
 	
 	if dienum == 4:
@@ -86,8 +82,6 @@ while True:
 			c4 = Circle(Point(50,150),20)
 			c4.setFill("red")
 			c4.draw(win)
-			win.getMouse() # pause for mouse click in window
-			win.close()
 		main()
 		
 	if dienum == 5:
@@ -110,8 +104,6 @@ while True:
 			c5 = Circle(Point(150,50),20)
 			c5.setFill("red")
 			c5.draw(win)
-			win.getMouse() # pause for mouse click in window
-			win.close()
 		main()
 	
 
@@ -138,11 +130,9 @@ while True:
 			c6 = Circle(Point(50,50),20)
 			c6.setFill("red")
 			c6.draw(win)
-			win.getMouse() # pause for mouse click in window
-			win.close()
 		main()
 
-	
+	#def roledie2():
 
 	dienum = random.randrange(1,7)
 	x = 450
@@ -152,7 +142,7 @@ while True:
 		def main():
 			win = GraphWin("Dice", 200,200)
 			win.setBackground("black")
-			win.master.geometry('%dx%d+%d+%d' % (200, 200, x, y))
+			win.master.geometry('%dx%d+%d+%d' % (200, 200, xx, yy))
 			c = Circle(Point(100,100),20)
 			c.setFill("red")
 			c.draw(win)
@@ -164,7 +154,7 @@ while True:
 		def main():
 			win = GraphWin("Dice", 200,200)
 			win.setBackground("black")
-			win.master.geometry('%dx%d+%d+%d' % (200, 200, x, y))
+			win.master.geometry('%dx%d+%d+%d' % (200, 200, xx, yy))
 			c = Circle(Point(50,50),20)
 			c.setFill("red")
 			c.draw(win)
@@ -179,7 +169,7 @@ while True:
 		def main():
 			win = GraphWin("Dice", 200,200)
 			win.setBackground("black")
-			win.master.geometry('%dx%d+%d+%d' % (200, 200, x, y))
+			win.master.geometry('%dx%d+%d+%d' % (200, 200, xx, yy))
 			c = Circle(Point(100,100),20)
 			c.setFill("red")
 			c.draw(win)
@@ -197,7 +187,7 @@ while True:
 		def main():
 			win = GraphWin("Dice", 200,200)
 			win.setBackground("black")
-			win.master.geometry('%dx%d+%d+%d' % (200, 200, x, y))
+			win.master.geometry('%dx%d+%d+%d' % (200, 200, xx, yy))
 			c = Circle(Point(150,50),20)
 			c.setFill("red")
 			c.draw(win)
@@ -218,7 +208,7 @@ while True:
 		def main():
 			win = GraphWin("Dice", 200,200)
 			win.setBackground("black")
-			win.master.geometry('%dx%d+%d+%d' % (200, 200, x, y))
+			win.master.geometry('%dx%d+%d+%d' % (200, 200, xx, yy))
 			c = Circle(Point(100,100),20)
 			c.setFill("red")
 			c.draw(win)
@@ -242,7 +232,7 @@ while True:
 		def main():
 			win = GraphWin("Dice", 200,200)
 			win.setBackground("black")
-			win.master.geometry('%dx%d+%d+%d' % (200, 200, x, y))
+			win.master.geometry('%dx%d+%d+%d' % (200, 200, xx, yy))
 			c = Circle(Point(150,150),20)
 			c.setFill("red")
 			c.draw(win)
@@ -264,5 +254,3 @@ while True:
 			win.getMouse() # pause for mouse click in window
 			win.close()
 		main()
-
-
