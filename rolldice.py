@@ -11,7 +11,7 @@ def yorn(question):
 	elif reply[0] == 'n':
 		return 1
 	else:
-		return yorn("Please enter y or n: ")
+		return yorn("Please enter Y or N: ")
 
 
 while True:
@@ -23,8 +23,7 @@ while True:
 	xx = 400
 	yy = 140
 
-	#def die2():
-		#roledie2()
+	#1st Roll
 
 	if dienum == 1:
 		def main():
@@ -132,7 +131,7 @@ while True:
 			c6.draw(win)
 		main()
 
-	#def roledie2():
+	#2nd roll
 
 	dienum = random.randrange(1,7)
 	x = 450
